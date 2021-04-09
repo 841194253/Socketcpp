@@ -5,7 +5,9 @@
 //centos7.6: ip addr
 // linux指令
 //g++ client.cpp -std=c++11 -pthread -o client
-//.client
+//./client
+//g++ server.cpp -std=c++11 -pthread -o server
+//./server
 #ifdef _WIN32
 	#define WIN32_LEAN_AND_MEAN
 	#include<windows.h>
